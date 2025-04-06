@@ -143,17 +143,3 @@ FROM layoffs_staging2
 WHERE total_laid_off IS NULL;
 Data Export
 The outputs of the queries are exported to CSV files stored in the Outputs/ directory. These files can be used for further analysis or visualization in Python, R, or any other analytics tools.
-
-Installation and Setup
-Clone the Repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/eda-layoffs-analysis.git
-Run SQL Queries: Open the layoffs_staging2.sql file in an SQL editor (e.g., MySQL Workbench, DBeaver, etc.) and run each query to perform the analysis.
-
-Export Results: After running the queries, export the result sets to CSV format using the EXPORT command or using the export functionality in your SQL editor.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
