@@ -1,0 +1,2 @@
+MAX(total_laid_off),MAX(percentage_laid_off),MIN(total_laid_off),MIN(percentage_laid_off)
+12000,1,3,0
